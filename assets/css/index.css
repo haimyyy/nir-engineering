@@ -1,0 +1,18 @@
+body{
+    background: linear-gradient(#2E368F 80%, #9acff2) !important;
+    direction: rtl;
+}
+
+.aboutText {
+    text-align: right;
+}
+.aboutSection{
+
+}
+.aboutSection > .title{
+ text-align: right;
+}
+.aboutSection > .title::after{
+    width: 5.25em;
+    margin-right: 0 !important;
+}
