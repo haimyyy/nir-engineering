@@ -6,13 +6,16 @@ body{
 .aboutText {
     text-align: right;
 }
-.aboutSection{
 
-}
-.aboutSection > .title{
+.engSection > .title{
  text-align: right;
 }
-.aboutSection > .title::after{
+
+.engSection > .title::after{
     width: 5.25em;
     margin-right: 0 !important;
+}
+
+.features > li {
+    text-align: center;
 }
